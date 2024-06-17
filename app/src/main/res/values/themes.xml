@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HiRecruiterApp2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Define the app theme to use the base theme. -->
+    <style name="Theme.HiRecruiterApp2" parent="Base.Theme.HiRecruiterApp2">
+        <!-- Additional customization if needed -->
+    </style>
+
+    <!-- Theme for the AppCompat components, if used. -->
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.HiRecruiterApp2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.HiRecruiterApp2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@color/Primary"
+    android:focusable="true"
+    app:strokeColor="@color/black"
+    app:strokeWidth="7dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/company_pic"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/add_box"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="280dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/company_pic"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+
+            <LinearLayout
+                android:id="@+id/linear_role"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/linear_type"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/txt_rname_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Role: "
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txt_rname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Role_name"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_type"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linear_role"
+                app:layout_constraintBottom_toTopOf="@id/linear_cname"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txt_application_type_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Role Type: "
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txt_application_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="role_type"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_cname"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linear_type"
+                app:layout_constraintBottom_toTopOf="@id/linear_skillsNeed">
+                <TextView
+                    android:id="@+id/txt_cname_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Company : "
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_cname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="company_name"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_skillsNeed"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linear_cname"
+                app:layout_constraintBottom_toTopOf="@id/linear_datePosted">
+                <TextView
+                    android:id="@+id/txt_skillsNeed_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skills Need : "
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_skillsNeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="skills_name"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_datePosted"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linear_skillsNeed"
+                app:layout_constraintBottom_toBottomOf="parent">
+                <TextView
+                    android:id="@+id/txt_datePosted_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date posted : "
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_datePosted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="date_Posted"
+                    />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

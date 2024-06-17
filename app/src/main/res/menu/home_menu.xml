@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_home"
+            android:title="Home"
+            android:icon="@drawable/baseline_home_24"
+            />
+        <item
+            android:id="@+id/action_edit_profile"
+            android:title="@string/edit_profile"
+            android:icon="@drawable/baseline_edit_profile"
+            />
+
+        <item
+            android:id="@+id/action_add_product"
+            android:title="@string/add_product"
+            android:icon="@drawable/baseline_add"
+            />
+
+        <item
+            android:id="@+id/action_view_complaints"
+            android:title="@string/view_complaints"
+            android:icon="@drawable/baseline_complaints"
+            />
+
+        <item
+            android:id="@+id/action_sign_out"
+            android:title="@string/sign_out"
+            android:icon="@drawable/baseline_sign_out" />
+
+    </group>
+</menu>

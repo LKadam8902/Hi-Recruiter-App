@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "614064072014",
+    "project_id": "hr-app-f146c",
+    "storage_bucket": "hr-app-f146c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614064072014:android:2bfcc475cecd2abdeb2a1f",
+        "android_client_info": {
+          "package_name": "com.example.hirecruiterapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614064072014-l9cjiggqcr6aa8fq2mffu07s8n0n04j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHRbLf96NZTKssthaYr54p7LMOF5kWXP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614064072014-l9cjiggqcr6aa8fq2mffu07s8n0n04j3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614064072014:android:8586aae7993f8006eb2a1f",
+        "android_client_info": {
+          "package_name": "com.example.hrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614064072014-l2a5s0fpmkmm0g8bkj0q0kg5i9hoa20o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hrapp",
+            "certificate_hash": "cb6ac0e7d53eb722576bf776f4917ac253bfaeb8"
+          }
+        },
+        {
+          "client_id": "614064072014-l9cjiggqcr6aa8fq2mffu07s8n0n04j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHRbLf96NZTKssthaYr54p7LMOF5kWXP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614064072014-l9cjiggqcr6aa8fq2mffu07s8n0n04j3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
